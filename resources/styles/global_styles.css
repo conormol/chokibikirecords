@@ -25,8 +25,13 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: space-around;
-    padding: 2rem 1rem;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.header--logo img {
+    height: 3.5rem;
+    width: 3.5rem;
 }
 
 .header--logo a {
@@ -87,11 +92,16 @@ footer {
     text-align: center;
 }
 
+.social--media-image {
+    height: auto;
+    width: 2rem;
+}
+
 .social--media a {
     margin: 1rem;
 }
 
 a:hover {
     cursor: pointer;
-    opacity: .8;
+    opacity: .6;
 }
