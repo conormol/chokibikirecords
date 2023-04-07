@@ -101,7 +101,15 @@ footer {
     margin: 1rem;
 }
 
+.current {
+    opacity: .6;
+}
+
 a:hover {
     cursor: pointer;
     opacity: .6;
+}
+
+.current:hover {
+    cursor:text;
 }
