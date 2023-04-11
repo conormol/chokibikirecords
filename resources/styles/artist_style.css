@@ -1,12 +1,16 @@
 .artist--menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .artist--container {
-    border: 1px solid #333;
+
     height: 20rem;
     width: 15rem;
+    margin: 2rem 2rem;
+    box-shadow: 0px 0px 5px;
 }
 
 .artist--img {
@@ -44,6 +48,27 @@
 
 #sharpson {
     background-image: url(../images/sharpson/sharpson-blue_jacket_press_picture.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;;
+}
+
+#mick {
+    background-image: url(../images/mick/P4161222.JPG);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;;
+}
+
+#twostep {
+    background-image: url(../images/2step/dublin_port028.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;;
+}
+
+#frame-shift {
+    background-image: url(../images/frame_shift/IMG-20220814-WA0011.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: 50%;;

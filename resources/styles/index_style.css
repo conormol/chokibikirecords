@@ -2,6 +2,7 @@ main {
     background: linear-gradient(rgb(245, 192, 6, 50%), rgb(99, 99, 99, 100%));
     display: flex;
     justify-content: center;
+    margin: 0 0;
 }
 
 .hero--img {

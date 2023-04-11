@@ -1,11 +1,15 @@
 .releases--menu {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1rem;
 }
 
 .release--container {
-    height: 20rem;
-    width: 20rem;
+    height: 15rem;
+    width: 15rem;
+    margin: 2rem 2rem;
 }
 
 .release--img {
@@ -42,11 +46,11 @@
 }
 
 .release--overlay-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .release--overlay-artist {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .release--overlay:hover {
@@ -56,8 +60,72 @@
 }
 
 #do-you-really-mean-it {
-    background-image: url('../images/releases/So_Durand_Trench_Foot-Do_You_Really_Mean_It_(Artwork).png');
+    background-image: url('../images/releases/do_you_really_mean_it.png');
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: 50%;;
+    background-position: 50%;
 }
+
+#beachball {
+    background-image: url('../images/releases/beachball.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#breaks-for-days {
+    background-image: url('../images/releases/breaks_for_days.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#coakley-collabs {
+    background-image: url('../images/releases/coakley_collabs.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#could-this-be-love {
+    background-image: url('../images/releases/could_this_be_love.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#dublin-mannerisms {
+    background-image: url('../images/releases/dublin_mannerisims.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#gaff-music {
+    background-image: url('../images/releases/gaff_music.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#kill-the-ghost {
+    background-image: url('../images/releases/kill_the_ghost.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#this-unruly-kingdom {
+    background-image: url('../images/releases/this_unruly_kingdom.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#underground {
+    background-image: url('../images/releases/underground.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
